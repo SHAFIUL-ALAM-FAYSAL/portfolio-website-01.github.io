@@ -1,0 +1,263 @@
+/* Teblet Layout */
+@media only screen and (min-width:200px) and (max-width:1366px){
+      /* body{background-color: rgb(25, 199, 34);} */
+      .container{max-width: 1366px;width: 96%;}
+      #whitebg, #work, #card_area, #customer, #footer_bg {width: 96%;}
+      .box {margin: 10px -35px;}
+      .message {
+            width: 480px;
+            height: 730px;
+            margin: 125px 0px 125px 145px;
+        }
+        #side {
+            width: 480px;
+            margin: 125px 145px 125px 0px;
+        }
+        .address, .phone, .web {
+            width: 478px;
+        }
+        .social_area ul li::after {
+            top: 6px;
+        }
+
+}
+
+@media only screen and (min-width:200px) and (max-width:1024px){
+      /* body{background-color: rgb(212, 235, 12);} */
+      .container{max-width: 1024px;}
+      .prfpic {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 80px;
+        }
+        .myself {
+            margin-top: 30px;
+        }
+        .btncnfg {
+            width: 170px;
+            height: 36px;
+        }
+        #work{
+            min-height: 700px;
+        }
+        #box{margin: 10px 50px 125px 90px;}
+        .box {margin: 10px -40px;}
+        .box1 {
+            width: 183px;
+            height: 170px;
+        }
+        .box1 img {
+            margin-top: 40px;
+            margin-bottom: 14px;
+        }
+        .box2 {
+            width: 183px;
+            height: 170px;
+        }
+        .box2 img {
+            margin-top: 40px;
+            margin-bottom: 14px;
+        }
+        .box3 {
+            width: 183px;
+            height: 170px;
+        }
+        .box3 img {
+            margin-top: 40px;
+            margin-bottom: 14px;
+        }
+        .box4 {
+            width: 183px;
+            height: 170px;
+        }
+        .box4 img {
+            margin-top: 40px;
+            margin-bottom: 14px;
+        }
+        .box5 {
+            background-color: #835aeb;
+            height: 170px;
+            grid-row: 2/3;
+            grid-column: 1/3;
+        }
+        .box5 img {
+            margin-top: 40px;
+            margin-bottom: 14px;
+        }
+        .box6 {
+            width: 183px;
+            height: 170px;
+        }
+        .box6 img {
+            margin-top: 40px;
+            margin-bottom: 14px;
+        }
+        .box7 {
+            width: 183px;
+            height: 170px;
+        }
+        .box7 img {
+            margin-top: 40px;
+            margin-bottom: 14px;
+        }
+        #card_area {
+            min-height: 793px;
+            padding: auto;
+        }
+        .work_ex {
+            width: 378px;
+            height: auto;
+            margin: 65px 0px 65px 215px;
+        }
+        .text_margin {
+            margin: 30px 20px;
+        }
+
+        .edu {
+            width: 378px;
+            height: auto;
+            margin: 65px 215px 65px 0px;
+        }
+        .line_2{
+            width:auto;
+        }
+
+
+        #customer{
+            height: 892px;
+        }
+        .message {
+            width: 400px;
+            height: 730px;
+            margin: 70px 0px 70px 65px;
+        }
+        #side {
+            width: 480px;
+            margin: 70px 85px 70px 0px;
+        }
+        .address, .phone, .web {
+            width: 400px;
+        }
+}
+
+@media only screen and (min-width:200px) and (max-width:390px){
+    .container{max-width: 390px;}
+    .header_area {min-height: 600px;}
+    .top_header {
+        padding: 30px 74px 100px;
+    }
+    .logo {
+        margin-top: -3px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .line{
+        width: auto;
+    }
+    .umc{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    h4{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    #whitebg{
+        min-height: 600px;
+    }
+    .hero{
+        padding: 0px;
+    }
+    .prfpic{
+        padding: 0px;
+        margin-top: 60px;
+        /* float: none; */
+        height: auto;
+        width: auto;
+    }
+    .prfpic img {
+        height: auto;
+    }
+    .myself {
+        width: 100%;
+        float: none;
+        height: auto;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .abtme h3{
+        margin-bottom: 30px;
+    }
+    #work {
+        min-height: 1000px;
+    }
+    .box{
+        grid-template-columns: auto auto;
+        margin: 0px -90px;
+    }
+    #box{
+        margin: 10px 90px 125px 90px;
+    } 
+
+    .box1,.box2,.box3,.box4,.box6,.box7{
+        width: 160px;
+        height: 150px;
+    }
+
+    #card_area{
+        background-size: 100% 1600px;
+        width: 96%;
+        min-height: 593px;
+        padding: auto;
+    }
+    .inner_card_area {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+    .work_ex, .edu{
+        width: 330px;
+        height: auto;
+        margin: 25px 200px 25px 200px;}
+    .side {
+        width: 100%;
+        margin: 60px 0px 10px 0px;
+    }
+
+    #customer{
+        background-size: 100% 2000px;
+        width: 96%;
+        height: auto;
+        min-height: 593px;
+        padding: auto;
+    }
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+    .message {
+        width: 330px;
+        height: auto;
+        margin: 25px 20px 25px 0px;
+    }
+
+    #side {
+        width: 330px;
+        height: 800px;
+        margin: 25px 20px 25px -10px;
+    }
+    .side_grid{
+        gap: 20px;
+    }
+    .address, .phone, .web{
+        width: 330px;
+        height: auto;
+        margin-top: -10px;
+    }
+}
+
